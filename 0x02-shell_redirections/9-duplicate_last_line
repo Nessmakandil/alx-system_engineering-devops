@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "${LAST_LINE}" >> iacta
+tail -n 1 iacta >> iacta
